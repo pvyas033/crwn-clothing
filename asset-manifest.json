@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/crwn-clothing/static/css/main.9323b608.chunk.css",
+    "main.css": "/crwn-clothing/static/css/main.3b138533.chunk.css",
     "main.js": "/crwn-clothing/static/js/main.179a33fc.chunk.js",
     "main.js.map": "/crwn-clothing/static/js/main.179a33fc.chunk.js.map",
     "runtime-main.js": "/crwn-clothing/static/js/runtime-main.93be4f1b.js",
@@ -10,7 +10,7 @@
     "index.html": "/crwn-clothing/index.html",
     "service-worker.js": "/crwn-clothing/service-worker.js",
     "service-worker.js.map": "/crwn-clothing/service-worker.js.map",
-    "static/css/main.9323b608.chunk.css.map": "/crwn-clothing/static/css/main.9323b608.chunk.css.map",
+    "static/css/main.3b138533.chunk.css.map": "/crwn-clothing/static/css/main.3b138533.chunk.css.map",
     "static/js/2.3c943c23.chunk.js.LICENSE.txt": "/crwn-clothing/static/js/2.3c943c23.chunk.js.LICENSE.txt",
     "static/media/Door_store.6505ff07.PNG": "/crwn-clothing/static/media/Door_store.6505ff07.PNG",
     "static/media/empty-cart.0bc2b32b.png": "/crwn-clothing/static/media/empty-cart.0bc2b32b.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.93be4f1b.js",
     "static/js/2.3c943c23.chunk.js",
-    "static/css/main.9323b608.chunk.css",
+    "static/css/main.3b138533.chunk.css",
     "static/js/main.179a33fc.chunk.js"
   ]
 }
