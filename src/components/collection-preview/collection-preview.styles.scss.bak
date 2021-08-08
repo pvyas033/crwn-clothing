@@ -1,3 +1,5 @@
+/* This file is no longer in use */
+
 .collection-preview {
   display: grid;
   grid-template-columns: 1fr;

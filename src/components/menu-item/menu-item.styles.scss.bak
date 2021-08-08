@@ -1,3 +1,5 @@
+/* This file is no longer in use */
+
 .menu-item {
   min-width: 50vw;
   height: 400px;

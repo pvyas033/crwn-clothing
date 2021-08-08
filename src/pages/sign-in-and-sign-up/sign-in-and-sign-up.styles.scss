@@ -1,10 +1,12 @@
+/* This file is no longer in use */
+
 .sign-in-and-sign-up {
   display: grid;
   place-items: center;
   grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 800px) {
   .sign-in-and-sign-up {
     grid-template-columns: 1fr 1fr;
   }

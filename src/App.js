@@ -9,6 +9,7 @@ import {
   auth,
   createUserProfileDocument,
 } from "./firebase/firebase.utils";
+import { GlobalStyle } from "./global.styles";
 import CheckOutPage from "./pages/checkout/checkout.component";
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
@@ -16,8 +17,6 @@ import SingInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up
 import { selectCollectionsForPreview } from "./redux/shop/shop.selectors";
 import { setCurrentUser } from "./redux/user/user.actions";
 import { selectCurrentUser } from "./redux/user/user.selectors";
-
-import "./App.css";
 
 class App extends Component {
   unsubscribeFromAuth = null;
@@ -52,6 +51,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <GlobalStyle />
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
