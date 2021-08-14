@@ -31,7 +31,6 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const OptionsContainer = styled.div`
-  margin-left: 1rem;
   display: grid;
   grid-template-columns: auto 1fr 1fr;
   column-gap: 1rem;
