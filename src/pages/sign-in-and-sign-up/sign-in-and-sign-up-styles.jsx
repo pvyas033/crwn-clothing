@@ -9,6 +9,7 @@ export const SignInAndSignUpContainer = styled.div`
   @media screen and (max-width: 800px) {
     display: grid;
     grid-template-columns: 1fr;
+    place-items: center;
     margin: 0;
     width: auto;
   }
