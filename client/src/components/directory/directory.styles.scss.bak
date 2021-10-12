@@ -1,0 +1,28 @@
+/* This file is no longer in use */
+
+.directory-menu {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 776px) {
+  .directory-menu {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .directory-menu {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      "a a b b c c"
+      "a a b b c c"
+      "d d d e e e"
+      "d d d e e e"
+      "d d d e e e";
+  }
+}

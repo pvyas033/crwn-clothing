@@ -1,0 +1,39 @@
+/* This file is no longer in use */
+
+.collection-preview {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 30px;
+  justify-content: center;
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+  }
+
+  .preview {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .collection-preview .preview {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .collection-preview .preview {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .collection-preview .preview {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
