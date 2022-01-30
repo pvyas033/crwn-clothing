@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/pvyas033/crwn-clothing">
-    <img src="client/src/assets/logo_gt.PNG" alt="Logo" width="80" height="80">
+    <img src="client/src/assets/logo_gt.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Online Clothing Store</h3>
